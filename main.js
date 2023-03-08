@@ -56,7 +56,7 @@ function renderCurrentWeather(current) {
     setValue("current-precip", current.precip)
 }
 
-const DAY_FORMATTER = new Intl.DateTimeFormat(undefined, { weekday: "long" });
+const DAY_FORMATTER = new Intl.DateTimeFormat(undefined, { weekday: "short" });
 const dailySection = document.querySelector("[data-day-section]")
 const dayCardTemplate = document.getElementById("day-card-template")
 function renderDailyWeather(daily) {
