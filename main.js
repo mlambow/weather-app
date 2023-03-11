@@ -28,7 +28,6 @@ function positionError() {
 //     setTimeout: 30000
 // }
 
-
 function renderWeather({ current, daily, hourly }) {
     renderCurrentWeather(current)
     renderDailyWeather(daily)
